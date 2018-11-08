@@ -1,7 +1,11 @@
+/**
+ * Author :: Jimut Bahan Pal
+ * Program to solve the coins problem, better than greedy algorithms. Finds the minimal no. of coins.
+ * Dated :: 9/11/2018
+ * */
+
 #include<iostream>
-#define CONST 10
-// TODO
-int calculate_greedy(int amt, int mon)
+int calculate_greedy(int amt, int mon)      //general greedy part 1
 {
     int c=0;
     if (amt<mon)
@@ -47,7 +51,7 @@ int main()
                     arr[i][j] = arr[i-1][j];
                 else
                 {
-                    // the greedy algorithm in general
+                    // the greedy algorithm in general, part 2
                     kount=0;
                     n_sum = j;
                     for(l=i;l>=0;l--)
@@ -79,7 +83,7 @@ int main()
     int min = arr[0][amt];
     for(i=0;i<num_deno;i++)
     {
-        if(arr[i][amt]<=min)
+        if(arr[i][amt]<=min)        // finds the minimum no. of coins required in the heap
             min=arr[i][amt];
     }
     std::cout<<"The minimum no. of coins required : "<<min<<std::endl;
