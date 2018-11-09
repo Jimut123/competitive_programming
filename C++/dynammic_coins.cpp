@@ -2,9 +2,28 @@
  * Author :: Jimut Bahan Pal
  * Program to solve the coins problem, better than greedy algorithms. Finds the minimal no. of coins.
  * Dated :: 9/11/2018
+ * 
+ * Enter the amount :
+        8
+        Enter the no. of denominations :
+        3
+        Enter the denominations :
+        1
+        4
+        6
+
+        The denominations :
+        1 4 6
+        0 1 2 3 4 5 6 7 8
+        1 0 1 2 3 4 5 6 7 8
+        4 0 1 2 3 1 2 3 4 2
+        6 0 1 2 3 1 2 1 2 3
+        Calculating the minimum no. of coins required :
+        The minimum no. of coins required : 2
  * */
 
 #include<iostream>
+#include <bits/stdc++.h>
 int calculate_greedy(int amt, int mon)      //general greedy part 1
 {
     int c=0;
