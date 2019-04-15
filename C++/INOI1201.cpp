@@ -1,6 +1,6 @@
 /*
  * Author :: Jimut Bahan Pal
- * Program to solve the coins problem, better than greedy algorithms. Finds the minimal no. of coins.
+ * Program to codechef problem
  * Dated :: 9/11/2018
  * 
 
@@ -12,6 +12,8 @@
 */
 
 #include<iostream>
+#include <bits/stdc++.h>
+
 int main()
 {
     long T,i,t,min_idx,j,min;
