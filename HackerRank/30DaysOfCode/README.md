@@ -1,3 +1,4 @@
+## This folder have the following codes
 
 * [day 1](hack_1.cpp)
 * [day 2](hack_2.cpp)
