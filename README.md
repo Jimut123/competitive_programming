@@ -19,12 +19,12 @@ Find me on:
 ## Contributing
 
 1. Fork it ( http://github.com/Jimut123/competitive_programming/fork )
-2. Add programs/ remove bugs/ optimise code (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
+2. Add programs/ remove bugs/ optimise code (`git checkout -b my-new-changes`)
+3. Commit your changes (`git commit -am 'some changes'`)
+4. Push to the branch (`git push origin my-new-changes`)
 5. Create new Pull Request
 
-Feel free to add/optimise code!
+* Feel free to add/optimise code!
 
 ### Submitting a Pull Request based on an existing proposal
 
