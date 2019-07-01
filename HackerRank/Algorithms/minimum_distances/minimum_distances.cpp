@@ -6,23 +6,22 @@ vector<string> split_string(string);
 
 // Complete the minimumDistances function below.
 int minimumDistances(vector<int> a) {
-    int k,min,found=0;
-    vector <int> get;
+    long k,min,found=0;
+    vector <long> get;
     k=a.size()-1;
-    for(int i=0;i<a.size();i++)
+    for(long i=0;i<(int)a.size()/2;i++)
     {
         if(a[i]==a[k])
         {
-	    cout<<"a[i] = "<<a[i]<<" a[k] = "<<a[k]<<endl;
             min=k-i;
             get.push_back(min);
             found=1;
         }
-	k--;
+        k--;
     }
+    for(auto it:get)
+	    cout<<it<<" ";
     sort(get.begin(),get.end());
-    for(auto i:get)
-	    cout<<i<<" ";
     if(found==1)
         return get[0];
     return -1;
