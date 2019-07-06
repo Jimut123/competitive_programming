@@ -1,8 +1,9 @@
-#include<iostream>
-#include<cmath>
-#include<math.h>
-#include<cstdlib>
+#include <iostream>
+#include <cmath>
+#include <math.h>
+#include <cstdlib>
 #include <stdint.h>
+
 int main()
 {
     int32_t n,m,a,an;
