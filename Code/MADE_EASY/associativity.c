@@ -13,7 +13,10 @@ int f2()
 int main()
 {
 	int p = f1()+f2();
+	int a;
+        a = 1,2,3;
 	// since addition is left associative, so the 10 remains the last changed value
-	printf("%d",x);
+	printf("%d\n",x);
+	printf("%d\n",a);
 	return 0;
 }
