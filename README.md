@@ -4,9 +4,13 @@
 All the stashes related to Competitive Programming (Though not totally into it!).
 
 Lin's recommendation: More on Books folder
+
 Typing practice: https://www.keybr.com/
+
 https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=84654839
+
 https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+
 Practice from this ladder: https://a2oj.com/Ladders.html
 
 CodeChef Basics resources: https://www.codechef.com/ioi/basics
