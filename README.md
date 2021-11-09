@@ -16,6 +16,7 @@ https://www.geeksforgeeks.org/fundamentals-of-algorithms/
 CodeChef Basics resources: https://www.codechef.com/ioi/basics
 
 Problems site:
+* https://cp-algorithms.com/index.html
 * Practice from this ladder: https://a2oj.com/Ladders.html
 * Binary Search: https://binarysearch.com/
 * Leet-Code: https://leetcode.com/
