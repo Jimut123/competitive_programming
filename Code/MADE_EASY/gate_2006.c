@@ -9,7 +9,6 @@ void swap (int *x, int *y)
 void printab ()
 {
     static int i, a = -3, b = -6;
-    i = 0;
     while (i <= 4)
     {
         if ((i++)%2 == 1) continue;
@@ -19,7 +18,7 @@ void printab ()
     swap (&a, &b);
     printf("a =  %d, b = %d\n", a, b);
 }
-main()
+int main()
 {
     printab();
     printab();
