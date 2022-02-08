@@ -3,29 +3,35 @@
 #include <algorithm>
 using namespace std;
 
-vector<int> subset;
+int n=5;
+vector<int> permutation;
+bool chosen[6];
 
-void search(int k)
+void search()
 {
-	if(k==n+1)
+	if(permutation.size() == n)
 	{
-		// process subset
-		for(auto i:subset)
+		// process permutation
+		for(auto i:permutation)
 			cout<<i<<" ";
-	       cout<<"\n";	
+		cout<<"\n";
 	}
 	else
 	{
-		subset.push_back(k);
-		search(k+1);
-		subset.pop_back();
-		search(k+1);
+		for(int i=1; i<=n; i++)
+		{
+			if(chosen[i]) continue;
+			chosen[i] = true;
+			permutation.push_back(i);
+			search();
+			chosen[i] = false;
+			permutation.pop_back();
+		}
 	}
 }
 
 int main()
 {
-	search(5);
-
+	search();
 	return 0;
 }
